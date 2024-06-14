@@ -1,0 +1,18 @@
+ # Nova Funcionalidade : 
+ # Novos Opções de Operações :
+
+print("[3] Multiplicação")
+print("[4] Divisão")
+
+# Estrutura Das Operações : 
+
+elif(operacao == 3):
+    operacao = str(operacao)
+    operacao = "Multiplicação"
+    resultado = n1 * n2
+    loop = True
+elif(operacao == 4):
+    operacao = str(operacao)
+    operacao = "Divisão"
+    resultado = n1 / n2
+    loop = True
